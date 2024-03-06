@@ -24,3 +24,23 @@ body {
     margin: 0 auto;
 
 }
+
+.titulo-princial{
+    text-align:left;
+    width:100%;
+    font-size: 32px;
+}
+
+.titulo-principal spam{
+    color: var(--verde);
+}
+
+.botao{
+    font-family:'chakra petch', sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display:flex;
+    justify-content: center
+
+}
+    
