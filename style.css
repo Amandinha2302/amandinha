@@ -40,7 +40,16 @@ body {
     background-color: var(--botao-inativo);
     color: var(--branco);
     display:flex;
-    justify-content: center
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom:;
+    border-left:;
+    border-rigth:;
+    border-top:;
+
 
 }
-    
+
