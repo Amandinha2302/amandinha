@@ -65,7 +65,16 @@ boder-radius: 40px 40px 0 0;
 }
 
     botao:first-child{
-boder-radius: 40px 40px 0 0
-    botao:first-child{
 boder-radius: 40px 40px 0 0;
+    }
+botao:last-child{
+boder-radius: 0 40px 0 0;
+}
+    }
+
+.ativo{
+    backgroud-color:var(--botao-ativo);
+    boder-bottom: 4px solid var(--verde);
+}
+    
     
