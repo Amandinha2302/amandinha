@@ -58,7 +58,10 @@ boder-radius: 40px 40px 0 0;
 .botoes{
     display: block;
 }
-
+.ativo{
+    backgroud-color:var(--botao-ativo);
+    boder-bottom: 4px solid var(--verde);
+}
 @media screen and (min-width:768px){  
 .botoes{
     display: flex;
@@ -72,9 +75,6 @@ boder-radius: 0 40px 0 0;
 }
     }
 
-.ativo{
-    backgroud-color:var(--botao-ativo);
-    boder-bottom: 4px solid var(--verde);
-}
+
     
     
