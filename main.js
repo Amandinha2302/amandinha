@@ -14,10 +14,14 @@ for(let i=0;i<botoes.lenght;i++){
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-03-25T00:00:00");
+const tempoObjetivo1 = new Date("2024-12-19T00:00:00");
+const tempoObjetivo2 = new Date("2025-01-06T00:00:00");
+const tempoObjetivo3 = new Date("2025-02-23T00:00:00");
+const tempoObjetivo4 = new Date("2025-03-23T00:00:00");
 let tempoAtual = new Date();
 
-contadores[0].textContent = calculaTempo(tempoObjetivo1);
+const tempo= [tempoObijetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4]
+contadores[0].textContent = calculaTempo(tempos[0];
 
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
